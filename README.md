@@ -1,4 +1,4 @@
-# Repo to reproduce https://github.com/mitchellh/packer/issues/2391o
+# Repo to reproduce https://github.com/mitchellh/packer/issues/2391
 
 ```
 PACKER_NO_COLOR=1 packer build problem.json > problem.log
