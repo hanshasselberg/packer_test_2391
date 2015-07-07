@@ -1,0 +1,17 @@
+{
+  "builders": [
+    {
+      "type": "docker",
+      "image": "phusion/baseimage",
+      "commit": true
+    }
+  ],
+
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": "set -x; for n in $(seq 50); do echo $n; done; exit 1;",
+      "inline_shebang": "/bin/bash"
+    }
+  ]
+}

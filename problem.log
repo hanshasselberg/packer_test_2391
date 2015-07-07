@@ -1,0 +1,62 @@
+docker output will be in this color.
+
+==> docker: Creating a temporary directory for sharing data...
+==> docker: Pulling Docker image: phusion/baseimage
+    docker: Pulling repository phusion/baseimage
+    docker: 5a14c1498ff4: Pulling image (latest) from phusion/baseimage
+    docker: 5a14c1498ff4: Pulling image (latest) from phusion/baseimage, endpoint: https://registry-1.docker.io/v1/
+    docker: 5a14c1498ff4: Pulling dependent layers
+    docker: 511136ea3c5a: Download complete
+    docker: 53f858aaaf03: Download complete
+    docker: 837339b91538: Download complete
+    docker: 615c102e2290: Download complete
+    docker: b39b81afc8ca: Download complete
+    docker: 8254ff58b098: Download complete
+    docker: ec5f59360a64: Download complete
+    docker: 2ce4ac388730: Download complete
+    docker: 2eccda511755: Download complete
+    docker: 5a14c1498ff4: Download complete
+    docker: 5a14c1498ff4: Download complete
+    docker: Status: Image is up to date for phusion/baseimage:latest
+==> docker: Starting docker container...
+    docker: Run command: docker run -v /Users/hans/tmp/packer-docker658357630:/packer-files -d -i -t phusion/baseimage /bin/bash
+    docker: Container ID: 8e01f61d302e5e03de3c8c365b81732fb9a496b4b60c5529d6ff1f66104c0a2c
+==> docker: Provisioning with shell script: /Users/hans/tmp/packer-shell090348855
+    docker: ++ seq 50
+    docker: + for n in '$(seq 50)'
+    docker: + touch 1
+    docker: + for n in '$(seq 50)'
+    docker: + touch 2
+    docker: + for n in '$(seq 50)'
+    docker: + touch 3
+    docker: + for n in '$(seq 50)'
+    docker: + touch 4
+    docker: + for n in '$(seq 50)'
+    docker: + touch 5
+    docker: + for n in '$(seq 50)'
+    docker: + touch 6
+    docker: + for n in '$(seq 50)'
+    docker: + touch 7
+    docker: + for n in '$(seq 50)'
+    docker: + touch 8
+    docker: + for n in '$(seq 50)'
+    docker: + touch 9
+    docker: + for n in '$(seq 50)'
+    docker: + touch 10
+    docker: + for n in '$(seq 50)'
+    docker: + touch 11
+    docker: + for n in '$(seq 50)'
+    docker: + touch 12
+    docker: + for n in '$(seq 50)'
+    docker: + touch 13
+    docker: + for n in '$(seq 50)'
+    docker: + touch 14
+    docker: + for n in '$(seq 50)'
+    docker: + touch 15
+==> docker: Killing the container: 8e01f61d302e5e03de3c8c365b81732fb9a496b4b60c5529d6ff1f66104c0a2c
+Build 'docker' errored: Script exited with non-zero exit status: 1
+
+==> Some builds didn't complete successfully and had errors:
+--> docker: Script exited with non-zero exit status: 1
+
+==> Builds finished but no artifacts were created.

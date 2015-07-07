@@ -1,0 +1,183 @@
+docker output will be in this color.
+
+==> docker: Creating a temporary directory for sharing data...
+==> docker: Pulling Docker image: phusion/baseimage
+    docker: Pulling repository phusion/baseimage
+    docker: 5a14c1498ff4: Pulling image (latest) from phusion/baseimage
+    docker: 5a14c1498ff4: Pulling image (latest) from phusion/baseimage, endpoint: https://registry-1.docker.io/v1/
+    docker: 5a14c1498ff4: Pulling dependent layers
+    docker: 511136ea3c5a: Download complete
+    docker: 53f858aaaf03: Download complete
+    docker: 837339b91538: Download complete
+    docker: 615c102e2290: Download complete
+    docker: b39b81afc8ca: Download complete
+    docker: 8254ff58b098: Download complete
+    docker: ec5f59360a64: Download complete
+    docker: 2ce4ac388730: Download complete
+    docker: 2eccda511755: Download complete
+    docker: 5a14c1498ff4: Download complete
+    docker: 5a14c1498ff4: Download complete
+    docker: Status: Image is up to date for phusion/baseimage:latest
+==> docker: Starting docker container...
+    docker: Run command: docker run -v /Users/hans/tmp/packer-docker416584747:/packer-files -d -i -t phusion/baseimage /bin/bash
+    docker: Container ID: 6b57c99cd999268f1e3ff0ea5fb490a2359f766f6e6dbb373994f04d0971b304
+==> docker: Provisioning with shell script: /Users/hans/tmp/packer-shell462494588
+    docker: ++ seq 50
+    docker: + for n in '$(seq 50)'
+    docker: + echo 1
+    docker: 1
+    docker: + for n in '$(seq 50)'
+    docker: + echo 2
+    docker: 2
+    docker: + for n in '$(seq 50)'
+    docker: + echo 3
+    docker: 3
+    docker: + for n in '$(seq 50)'
+    docker: + echo 4
+    docker: 4
+    docker: + for n in '$(seq 50)'
+    docker: + echo 5
+    docker: 5
+    docker: + for n in '$(seq 50)'
+    docker: + echo 6
+    docker: 6
+    docker: + for n in '$(seq 50)'
+    docker: + echo 7
+    docker: 7
+    docker: + for n in '$(seq 50)'
+    docker: + echo 8
+    docker: 8
+    docker: + for n in '$(seq 50)'
+    docker: + echo 9
+    docker: 9
+    docker: + for n in '$(seq 50)'
+    docker: + echo 10
+    docker: 10
+    docker: + for n in '$(seq 50)'
+    docker: + echo 11
+    docker: 11
+    docker: + for n in '$(seq 50)'
+    docker: + echo 12
+    docker: 12
+    docker: + for n in '$(seq 50)'
+    docker: + echo 13
+    docker: 13
+    docker: + for n in '$(seq 50)'
+    docker: + echo 14
+    docker: 14
+    docker: + for n in '$(seq 50)'
+    docker: + echo 15
+    docker: 15
+    docker: + for n in '$(seq 50)'
+    docker: + echo 16
+    docker: 16
+    docker: + for n in '$(seq 50)'
+    docker: + echo 17
+    docker: 17
+    docker: + for n in '$(seq 50)'
+    docker: + echo 18
+    docker: 18
+    docker: + for n in '$(seq 50)'
+    docker: + echo 19
+    docker: 19
+    docker: + for n in '$(seq 50)'
+    docker: + echo 20
+    docker: 20
+    docker: + for n in '$(seq 50)'
+    docker: + echo 21
+    docker: 21
+    docker: + for n in '$(seq 50)'
+    docker: + echo 22
+    docker: 22
+    docker: + for n in '$(seq 50)'
+    docker: + echo 23
+    docker: 23
+    docker: + for n in '$(seq 50)'
+    docker: + echo 24
+    docker: 24
+    docker: + for n in '$(seq 50)'
+    docker: + echo 25
+    docker: 25
+    docker: + for n in '$(seq 50)'
+    docker: + echo 26
+    docker: 26
+    docker: + for n in '$(seq 50)'
+    docker: + echo 27
+    docker: 27
+    docker: + for n in '$(seq 50)'
+    docker: + echo 28
+    docker: 28
+    docker: + for n in '$(seq 50)'
+    docker: + echo 29
+    docker: 29
+    docker: + for n in '$(seq 50)'
+    docker: + echo 30
+    docker: 30
+    docker: + for n in '$(seq 50)'
+    docker: + echo 31
+    docker: 31
+    docker: + for n in '$(seq 50)'
+    docker: + echo 32
+    docker: 32
+    docker: + for n in '$(seq 50)'
+    docker: + echo 33
+    docker: 33
+    docker: + for n in '$(seq 50)'
+    docker: + echo 34
+    docker: 34
+    docker: + for n in '$(seq 50)'
+    docker: + echo 35
+    docker: 35
+    docker: + for n in '$(seq 50)'
+    docker: + echo 36
+    docker: 36
+    docker: + for n in '$(seq 50)'
+    docker: + echo 37
+    docker: 37
+    docker: + for n in '$(seq 50)'
+    docker: + echo 38
+    docker: 38
+    docker: + for n in '$(seq 50)'
+    docker: + echo 39
+    docker: 39
+    docker: + for n in '$(seq 50)'
+    docker: + echo 40
+    docker: 40
+    docker: + for n in '$(seq 50)'
+    docker: + echo 41
+    docker: 41
+    docker: + for n in '$(seq 50)'
+    docker: + echo 42
+    docker: 42
+    docker: + for n in '$(seq 50)'
+    docker: + echo 43
+    docker: 43
+    docker: + for n in '$(seq 50)'
+    docker: + echo 44
+    docker: 44
+    docker: + for n in '$(seq 50)'
+    docker: + echo 45
+    docker: 45
+    docker: + for n in '$(seq 50)'
+    docker: + echo 46
+    docker: 46
+    docker: + for n in '$(seq 50)'
+    docker: + echo 47
+    docker: 47
+    docker: + for n in '$(seq 50)'
+    docker: + echo 48
+    docker: 48
+    docker: + for n in '$(seq 50)'
+    docker: + echo 49
+    docker: 49
+    docker: + for n in '$(seq 50)'
+    docker: + echo 50
+    docker: 50
+    docker: + exit 1
+==> docker: Killing the container: 6b57c99cd999268f1e3ff0ea5fb490a2359f766f6e6dbb373994f04d0971b304
+Build 'docker' errored: Script exited with non-zero exit status: 1
+
+==> Some builds didn't complete successfully and had errors:
+--> docker: Script exited with non-zero exit status: 1
+
+==> Builds finished but no artifacts were created.
